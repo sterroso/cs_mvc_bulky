@@ -268,3 +268,4 @@ BulkyWeb/appsettings.Development.json
 BulkyWeb/appsettings.Production.json
 BulkyWeb/appsettings.Testing.json
 BulkyWeb/appsettings.Staging.json
+.fake
