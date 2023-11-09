@@ -1,14 +1,13 @@
-using System.ComponentModel.DataAnnotations;
+using MongoDB.Bson;
 
-namespace BulkyWeb.Models;
-public class Category
+namespace BulkyWeb.Models
 {
-    [Key]
-    public int Id { get; set; }
+    public class Category
+    {
+        public ObjectId _id { get; set; }
 
-    [Required]
-    public required string Name { get; set; }
+        public required string Name { get; set; }
 
-    [Required]
-    public required int DisplayOrder { get; set; }
+        public required int DisplayOrder { get; set; }
+    }
 }
